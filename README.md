@@ -1,9 +1,9 @@
 
 # Weather App
 
-- This web application is created using ReactJS and TailwindCSS. Data is retrived using axios get method.
+- This web application is created using ReactJS and TailwindCSS. Data is retrieved using the axios get method.
 
-- It usage two APIs which are Open Weather Map API for showing current weather data and GeoDB API for showing suggestion of city to the user according to user's search input. 
+- It uses two APIs which are Open Weather Map API for showing current weather data and GeoDB API for showing suggestions of city to the user according to the user's search input. 
 
 ## Run Locally
 

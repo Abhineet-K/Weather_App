@@ -93,7 +93,7 @@ function App() {
             onKeyDownCapture={searchLocation}
           />
           <div className="w-[280px] sm:w-[670px]">
-            {isInvalidLocation && <p className="text-gray-800 text-xs sm:text-lg  font-medium bg-red-300 absolute border-2 border-red-500 z-10 w-[280px] sm:w-[670px] rounded-md sm:rounded-lg shadow-md"> City Not Found <span className=" animate-bounce sm:px-2 sm:mx-2 text-base ">===&rArr;</span>  Enter Valid City Name</p>}
+            {isInvalidLocation && <p className="text-gray-800 text-xs sm:text-lg  font-medium bg-red-300 absolute border-2 border-red-500 z-10 w-[280px] sm:w-[670px] rounded-md sm:rounded-lg shadow-md"> City Not Found <span className=" animate-bounce sm:px-2 sm:mx-2 text-base ">==={'>'}</span>  Enter Valid City Name</p>}
             {isLoading && <p className="bg-gray-200 text-sm sm:text-lg font-medium absolute z-10 w-[280px] sm:w-[670px] rounded-md sm:rounded-lg border border-gray-200  shadow-md">Loading suggestions...</p>}
             {suggestions.length > 0 && (
               <ul className="bg-gray-200 text-sm sm:text-lg absolute z-10 w-[280px] sm:w-[670px] rounded-md sm:rounded-lg border border-gray-200  shadow-md p-1">
